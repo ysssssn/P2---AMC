@@ -1,0 +1,14 @@
+TIPO: AFND
+ESTADOS: q0 q1 q2 q3 q4
+INICIAL: q0 
+FINALES: q4
+TRANSICIONES:
+q0 'a' q1
+q0 'b' q2 q3
+q1 'a' q2
+q2 'b' q4
+q4 'a' q4
+TRANSICIONES LAMBDA:
+q1 q4
+q3 q4
+FIN
